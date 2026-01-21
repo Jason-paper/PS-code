@@ -1,0 +1,47 @@
+# This file was created Sun Mar 16 13:42:56 2025
+# Created by:
+#                  :-) GROMACS - gmx hbond, 2025.1-Homebrew (-:
+# 
+# Executable:   /opt/homebrew/bin/../Cellar/gromacs/2025.1/bin/gmx
+# Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2025.1
+# Working dir:  /Volumes/霍兴发_2/11MD/MD_results/TRDMT1/X
+# Command line:
+#   gmx hbond -f md_0_10_center.xtc -s md_0_10.tpr -num hbnum.xvg -dist hbdist.xvg -ang hbang.xvg -tu ns
+# gmx hbond is part of G R O M A C S:
+#
+# GRowing Old MAkes el Chrono Sweat
+#
+@    title "Hydrogen Bond Angle Distribution Histogram"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (degrees)"
+@    yaxis  label "Probability"
+@TYPE xy
+       0.5  0.0014948
+       1.5  0.0029895
+       2.5  0.0044843
+       3.5  0.0149477
+       4.5  0.0134529
+       5.5  0.0104634
+       6.5  0.0164425
+       7.5  0.0224215
+       8.5  0.0224215
+       9.5  0.0284006
+      10.5  0.0209268
+      11.5  0.0179372
+      12.5  0.0328849
+      13.5  0.0343797
+      14.5  0.0448431
+      15.5  0.0328849
+      16.5  0.0508221
+      17.5  0.0284006
+      18.5  0.0478326
+      19.5  0.0388640
+      20.5  0.0538117
+      21.5  0.0403587
+      22.5  0.0553064
+      23.5  0.0298954
+      24.5  0.0493274
+      25.5  0.0612855
+      26.5  0.0478326
+      27.5  0.0582960
+      28.5  0.0597907
+      29.5  0.0568012

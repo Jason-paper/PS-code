@@ -1,0 +1,58 @@
+;
+;	File 'topol.top' was generated
+;	By user: huoxingfa (1000)
+;	On host: huoxingfa
+;	At date: Fri Apr 11 14:17:08 2025
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	                    :-) GROMACS - gmx pdb2gmx, 2025.1 (-:
+;	
+;	Executable:   /home/soft/gromacs_2025.1_GPU/bin/gmx_mpi
+;	Data prefix:  /home/soft/gromacs_2025.1_GPU
+;	Working dir:  /home/huoxingfa/Desktop/GSK3B/X
+;	Command line:
+;	  gmx_mpi pdb2gmx -f GSK3B.pdb -o GSK3B.gro -water tip3p -ff amber99sb-ildn -ignh
+;	Force field was read from the standard GROMACS share directory.
+;
+
+; Include forcefield parameters
+#include "amber99sb-ildn.ff/forcefield.itp"
+
+; Include ligand topology
+#include "CA.ff/X.itp"
+
+; Include chain topologies
+#include "topol_Protein_chain_A.itp"
+#include "topol_Protein_chain_B.itp"
+
+; Ligand position restraints
+#ifdef POSRES
+#include "posre_X.itp"
+#endif
+
+; Include water topology
+#include "amber99sb-ildn.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "amber99sb-ildn.ff/ions.itp"
+
+[ system ]
+; Name
+Protein in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_A     1
+Protein_chain_B     1
+X                   1
+SOL         62310
+CL               12

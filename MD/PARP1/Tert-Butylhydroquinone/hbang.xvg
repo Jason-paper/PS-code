@@ -1,0 +1,47 @@
+# This file was created Mon Apr 14 19:51:29 2025
+# Created by:
+#                      :-) GROMACS - gmx hbond, 2025.1 (-:
+# 
+# Executable:   /home/soft/gromacs_2025.1_GPU/bin/gmx_mpi
+# Data prefix:  /home/soft/gromacs_2025.1_GPU
+# Working dir:  /home/huoxingfa/Desktop/PARP1/X
+# Command line:
+#   gmx_mpi hbond -f md_0_10_center.xtc -s md_0_10.tpr -num hbnum.xvg -dist hbdist.xvg -ang hbang.xvg -tu ns
+# gmx hbond is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Hydrogen Bond Angle Distribution Histogram"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (degrees)"
+@    yaxis  label "Probability"
+@TYPE xy
+       0.5  0.0023423
+       1.5  0.0046847
+       2.5  0.0097297
+       3.5  0.0108108
+       4.5  0.0172973
+       5.5  0.0147748
+       6.5  0.0203604
+       7.5  0.0232432
+       8.5  0.0252252
+       9.5  0.0245045
+      10.5  0.0327928
+      11.5  0.0372973
+      12.5  0.0389189
+      13.5  0.0344144
+      14.5  0.0396396
+      15.5  0.0407207
+      16.5  0.0419820
+      17.5  0.0414414
+      18.5  0.0446847
+      19.5  0.0409009
+      20.5  0.0394595
+      21.5  0.0466667
+      22.5  0.0486486
+      23.5  0.0459459
+      24.5  0.0446847
+      25.5  0.0466667
+      26.5  0.0448649
+      27.5  0.0502703
+      28.5  0.0414414
+      29.5  0.0455856

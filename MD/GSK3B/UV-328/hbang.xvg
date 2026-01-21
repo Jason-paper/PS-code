@@ -1,0 +1,47 @@
+# This file was created Mon Apr 14 16:09:10 2025
+# Created by:
+#                      :-) GROMACS - gmx hbond, 2025.1 (-:
+# 
+# Executable:   /home/soft/gromacs_2025.1_GPU/bin/gmx_mpi
+# Data prefix:  /home/soft/gromacs_2025.1_GPU
+# Working dir:  /home/huoxingfa/Desktop/GSK3B/F
+# Command line:
+#   gmx_mpi hbond -f md_0_10_center.xtc -s md_0_10.tpr -num hbnum.xvg -dist hbdist.xvg -ang hbang.xvg -tu ns
+# gmx hbond is part of G R O M A C S:
+#
+# GROup of MAchos and Cynical Suckers
+#
+@    title "Hydrogen Bond Angle Distribution Histogram"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (degrees)"
+@    yaxis  label "Probability"
+@TYPE xy
+       0.5  0.0000000
+       1.5  0.0022989
+       2.5  0.0000000
+       3.5  0.0011494
+       4.5  0.0045977
+       5.5  0.0045977
+       6.5  0.0068966
+       7.5  0.0034483
+       8.5  0.0057471
+       9.5  0.0068966
+      10.5  0.0091954
+      11.5  0.0114943
+      12.5  0.0218391
+      13.5  0.0149425
+      14.5  0.0114943
+      15.5  0.0206897
+      16.5  0.0229885
+      17.5  0.0310345
+      18.5  0.0402299
+      19.5  0.0517241
+      20.5  0.0425287
+      21.5  0.0574713
+      22.5  0.0574713
+      23.5  0.0586207
+      24.5  0.0747126
+      25.5  0.0528736
+      26.5  0.0701149
+      27.5  0.1034483
+      28.5  0.1068965
+      29.5  0.1045977

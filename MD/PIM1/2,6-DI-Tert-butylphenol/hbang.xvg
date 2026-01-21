@@ -1,0 +1,47 @@
+# This file was created Wed Mar 26 10:23:10 2025
+# Created by:
+#                  :-) GROMACS - gmx hbond, 2025.1-Homebrew (-:
+# 
+# Executable:   /opt/homebrew/bin/../Cellar/gromacs/2025.1/bin/gmx
+# Data prefix:  /opt/homebrew/bin/../Cellar/gromacs/2025.1
+# Working dir:  /Volumes/霍兴发_2/11MD/MD_results/PIM1/H
+# Command line:
+#   gmx hbond -f md_0_10_center.xtc -s md_0_10.tpr -num hbnum.xvg -dist hbdist.xvg -ang hbang.xvg -tu ns
+# gmx hbond is part of G R O M A C S:
+#
+# GROningen Mixture of Alchemy and Childrens' Stories
+#
+@    title "Hydrogen Bond Angle Distribution Histogram"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (degrees)"
+@    yaxis  label "Probability"
+@TYPE xy
+       0.5  0.0000000
+       1.5  0.0000000
+       2.5  0.0000000
+       3.5  0.0000000
+       4.5  0.0227273
+       5.5  0.0681818
+       6.5  0.0227273
+       7.5  0.0000000
+       8.5  0.0227273
+       9.5  0.0227273
+      10.5  0.0454545
+      11.5  0.0000000
+      12.5  0.0227273
+      13.5  0.0227273
+      14.5  0.0454545
+      15.5  0.0681818
+      16.5  0.0000000
+      17.5  0.0000000
+      18.5  0.0227273
+      19.5  0.0454545
+      20.5  0.0227273
+      21.5  0.1818182
+      22.5  0.0681818
+      23.5  0.0227273
+      24.5  0.0000000
+      25.5  0.0000000
+      26.5  0.0454545
+      27.5  0.0454545
+      28.5  0.0909091
+      29.5  0.0909091

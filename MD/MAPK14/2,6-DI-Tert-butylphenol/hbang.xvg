@@ -1,0 +1,47 @@
+# This file was created Wed Mar 12 10:56:27 2025
+# Created by:
+#                      :-) GROMACS - gmx hbond, 2022.2 (-:
+# 
+# Executable:   /usr/local/gromacs/bin//gmx
+# Data prefix:  /usr/local/gromacs
+# Working dir:  /root/autodl-tmp/MAPK14/H
+# Command line:
+#   gmx hbond -f md_0_10_center.xtc -s md_0_10.tpr -num hbnum.xvg -dist hbdist.xvg -ang hbang.xvg
+# gmx hbond is part of G R O M A C S:
+#
+# Gravel Rubs Often Many Awfully Cauterized Sores
+#
+@    title "Hydrogen Bond Distribution"
+@    xaxis  label "Hydrogen - Donor - Acceptor Angle (\SO\N)"
+@    yaxis  label ""
+@TYPE xy
+       0.5          0
+       1.5          0
+       2.5          0
+       3.5          0
+       4.5          0
+       5.5          0
+       6.5          0
+       7.5   0.166667
+       8.5          0
+       9.5          0
+      10.5          0
+      11.5          0
+      12.5          0
+      13.5          0
+      14.5          0
+      15.5          0
+      16.5          0
+      17.5          0
+      18.5   0.166667
+      19.5          0
+      20.5          0
+      21.5          0
+      22.5          0
+      23.5          0
+      24.5   0.333333
+      25.5          0
+      26.5          0
+      27.5          0
+      28.5   0.166667
+      29.5   0.166667
